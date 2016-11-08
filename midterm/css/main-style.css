@@ -1,0 +1,45 @@
+*{
+  border-radius: 3px;
+}
+html{
+  border-radius:3px;
+  max-width:1260px;
+  max-height:auto;
+  margin-left:auto;
+  margin-right: auto;
+}
+body{
+  margin-left: 42.4px;
+}
+.logo{
+  width: 375px;
+  height: 150px;
+}
+.navbar{
+  background-color: blue;
+  width: 1175px;
+  height: 50px;
+}
+li{
+  list-style: none;
+  float: left;
+  font-family: Arial Black;
+  font-size: 20px;
+  color: red;
+  margin:8px 150px 15px 0px;
+}
+.contentarea{
+  background-color: lightblue;
+  height: 1000px;
+  width: 1175px;
+}
+.main-img{
+  background-color: blue;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.b-bar{
+  background-color: green;
+  width: 1175px;
+  height: 100px;
+}
