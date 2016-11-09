@@ -60,18 +60,24 @@ body{
   margin:16px 0px 16px 0px;
   padding: 32px 64px;
 }
-.content-title{
-  text-align: center;
+
+.face-img{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 0px auto;
 }
-.content-text{
+.intro-title{
   text-align: center;
-}
-iframe{
-  margin:16px 96px;
+  margin-top: 36px;
+  color: white;
 }
 .talk-text{
   text-align: center;
   color: #888888;
+}
+.intro-text{
+  text-align: center;
 }
 .b-bar{
   width: 1175px;

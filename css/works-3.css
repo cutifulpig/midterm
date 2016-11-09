@@ -52,26 +52,61 @@ body{
   display: block;
 }
 .contentarea{
-  font-size: 18px;
-	color: #CCCCCC;
   background-color: black;
-  height: auto;
-  width: 1047px;
+  height: 1000px;
+  width: 1175px;
   margin:16px 0px 16px 0px;
-  padding: 32px 64px;
 }
-.content-title{
-  text-align: center;
+.sushi-line1{
+  float: left;
 }
-.content-text{
-  text-align: center;
+.sushi-line1-text,.sushi-line2-text{
+  color: white;
+  font-size: 50px;
 }
-iframe{
-  margin:16px 96px;
+.sushi-line1-text li,.sushi-line2-text li{
+  list-style: none;
+  float: left;
+  margin: 20px 0px 0px 80px;
 }
-.talk-text{
-  text-align: center;
-  color: #888888;
+#sushi-line1-text1{
+  margin-left: 85px;
+}
+#sushi-line1-text2{
+  margin-left: 235px;
+}
+#sushi-line1-text3{
+  margin-left: 240px;
+}
+#sushi-line2-text1{
+  margin-left: 85px;
+}
+#sushi-line2-text2{
+  margin-left: 210px;
+}
+#sushi-line2-text3{
+  margin-left: 240px;
+}
+#sushi-2,#sushi-5{
+  position: absolute;
+  margin-left: -4px;
+}
+#sushi-3,#sushi-6{
+margin-left: 388px;
+}
+.sushi-line2{
+  float: left;
+  margin-top: 30px;
+}
+.sushitab {
+  clear: both;
+  margin-left: 580px;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white;
+}
+#sushitab-1 a:visited{
+  color: white;
 }
 .b-bar{
   width: 1175px;
